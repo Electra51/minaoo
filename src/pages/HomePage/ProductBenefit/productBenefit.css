@@ -1,0 +1,130 @@
+.productBenefit-wrapper {
+  width: 1440px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 3.5fr;
+  gap: 25px;
+  margin-top: 40px;
+}
+.productBenefit-left {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.benefit {
+  border: 1px solid rgb(223, 223, 223);
+
+  display: flex;
+  justify-content: normal;
+  gap: 20px;
+  border-radius: 5px;
+  padding: 20px 40px;
+  align-items: center;
+}
+.benefit-title {
+  text-wrap: nowrap;
+  font-size: 18px;
+  font-weight: 600;
+}
+.benefit-tag {
+  margin-top: 7px;
+  font-size: 14px;
+  font-weight: 300;
+}
+.productBenefit-right {
+  position: relative;
+
+  width: 1090px !important;
+}
+.featured-product {
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.slick-dots {
+  visibility: hidden;
+}
+.product-item {
+  margin: 0 20px;
+  position: relative;
+}
+.product-discount {
+  position: absolute;
+  top: 13px;
+  left: 13px;
+  font-size: 14px;
+  color: white;
+  background: red;
+  font-weight: 500;
+  padding: 3px 8px;
+  border-radius: 5px;
+}
+.slick-prev {
+  left: 1006px !important;
+  background: #2288dd !important;
+  border-radius: 97%;
+  top: -47px !important;
+}
+.slick-list {
+  margin: 62px 0px !important;
+}
+.slick-next {
+  top: -47px !important;
+  background: #2288dd !important;
+  border-radius: 97%;
+  right: 17px !important;
+}
+.img-box {
+  height: 240px;
+  border-radius: 7px;
+  background: rgba(236, 237, 237, 0.751);
+}
+.img {
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.product-title {
+  color: rgb(43, 42, 42);
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 15px;
+}
+.product-rating {
+  display: flex;
+  justify-content: normal;
+  align-items: center;
+  gap: 7px;
+
+  color: gray;
+  font-size: 13px;
+}
+.product-stock {
+  font-size: 13px;
+  color: rgb(36, 190, 36);
+}
+.product-rating-and-stock {
+  display: flex;
+  margin-top: 8px;
+  justify-content: space-between;
+}
+.product-all-price {
+  display: flex;
+  justify-content: normal;
+  align-items: center;
+  gap: 9px;
+}
+.product-price {
+  font-size: 18px;
+  margin: 8px 0px;
+  font-weight: 700;
+  color: rgba(9, 108, 183, 0.991);
+}
+.product-after-price {
+  color: gray;
+  text-decoration: line-through;
+  font-size: 14px;
+}

@@ -1,0 +1,50 @@
+.discountSection_wrapper {
+  width: 1440px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.card {
+  height: 150px;
+  width: 320px;
+  border-radius: 8px;
+  padding: 10px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.discountSection-tag {
+  font-size: 12px;
+  color: rgb(71, 70, 70);
+}
+.discountSection-discount {
+  font-size: 30px;
+  color: black;
+  font-weight: 500;
+}
+.tag-tag {
+  color: red;
+  background: transparent;
+  margin-top: 5px;
+  text-decoration: underline;
+}
+.blue {
+  background-color: #3e9ceb3b;
+}
+
+.yellow {
+  background-color: #e45e7047;
+}
+
+.red {
+  background-color: #5dadff33;
+}
+
+.green {
+  background-color: #ed888891;
+}

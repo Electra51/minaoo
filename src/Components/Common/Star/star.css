@@ -1,0 +1,9 @@
+.start-color {
+  color: rgb(250, 189, 33);
+  font-size: 12.5px;
+}
+.rating-point {
+  display: flex;
+  gap: 1px;
+  align-items: center;
+}

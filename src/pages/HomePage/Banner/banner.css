@@ -1,0 +1,114 @@
+.banner-wrapper {
+  width: 1440px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 3.5fr;
+  gap: 25px;
+  margin-top: 16px;
+}
+
+.banner-para {
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.banner-percentage {
+  color: #2288dd;
+  font-size: 20px;
+}
+.banner-second {
+  font-size: 40px;
+  font-weight: 700;
+}
+.banner-fashion {
+  color: #2288dd;
+}
+.buy-button {
+  margin-top: 20px;
+  border-radius: 4px;
+  padding: 10px 30px;
+  background: #2288dd;
+  color: white;
+}
+.banner-right {
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 40px;
+  align-items: center;
+  gap: 20px;
+  background: #b7ebec69;
+}
+
+.menu {
+  border: 1px solid #ededed;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+}
+
+.menu-list {
+  margin: 0;
+  display: block;
+  width: 100%;
+  font-size: 18px;
+}
+
+.menu-sub-list {
+  display: none;
+  border-radius: 5px;
+  border: 1px solid #ededed;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(202, 202, 202, 0.15);
+  position: absolute;
+  left: 100%;
+  right: 0;
+  z-index: 100;
+  width: 100%;
+  top: 0;
+  flex-direction: column;
+}
+
+.menu-sub-list:hover {
+  display: flex;
+}
+
+.menu-item {
+  position: relative;
+}
+
+.menu-button {
+  display: flex;
+  justify-content: space-between;
+  border: 0;
+  padding: 19px;
+  font-size: 15px;
+  width: 100%;
+  background: white;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.button-first {
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+.menu-button:hover {
+  color: #2288dd;
+  background-color: #e0f6f7;
+}
+
+.menu-button:hover + .menu-sub-list {
+  display: flex;
+}
+
+.menu-button svg:nth-of-type(2) {
+  margin-right: 0;
+  position: absolute;
+  right: 8px;
+}
+
+.menu-button--orange {
+  color: #2288dd;
+}
