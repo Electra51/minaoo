@@ -1,70 +1,58 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Minaoo -Multi-vendor e-commerce web apllication
 
-## Available Scripts
+## Project Logo
+![Logo]([https://i.ibb.co/RgFQXyM/Capture.png](https://i.ibb.co/wQdN1z9/logo.png))
 
-In the project directory, you can run:
 
-### `npm start`
+## Demo
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+[https://6585705c1eb607bd30c8b7f8--tranquil-licorice-be2691.netlify.app/](https://65d0b006612c0b9baac523c5--roaring-cheesecake-56635f.netlify.app/)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **NFT Listings**: Sellers can list their digital assets as NFTs for sale, including metadata and pricing information.
+- **Wallet Integration**: Users can connect their blockchain wallets to manage their NFT holdings and transactions but the feature is comming soon.
+- **Search and Filter**: Users can easily discover NFTs through search and filtering options.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Technologies Used
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+ **Frontend:**
+  - [ReactJs](https://reactjs.org/)
+  - CSS
+  - [React Icons](https://react-icons.github.io/react-icons/)
+  - [React Router Dom](https://reactrouter.com/en/main)
+   
+  **Backend:**
+ - This is a frontend focus project. No backend technology is used here. Use fake JSON data from https://dummyjson.com/products.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Color Palette
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+| Color         | Hex                                                            |
+| ------------- | -------------------------------------------------------------- |
+| Body Color    | ![#FFFFFF](https://via.placeholder.com/10/FFFFFF?text=+) #FFFFFF |
+| Theme Color   | ![#2288dd](https://via.placeholder.com/10/2288dd?text=+) #2288dd |
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+  
+## Screenshots
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![App Screenshot]([https://i.ibb.co/jfkJg8T/Screenshot-from-2023-12-22-17-31-49.png](https://i.ibb.co/1JcDxFZ/Screenshot-from-2024-02-17-18-51-54.png))
+![App Screenshot]([https://i.ibb.co/rZNpRH9/Screenshot-from-2023-12-22-17-31-08.png](https://i.ibb.co/qp3ggRc/Screenshot-from-2024-02-17-18-52-08.png))
 
-## Learn More
+## Installation
+Install my-project with npm
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Step-1: git clone project url
+- Step-2: npm i
+- Step-3: npm start
 
-### Code Splitting
+    
+## 🔗 Links
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://nextjs-my-portfolio-electra51.vercel.app/)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/safayet-nur/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
