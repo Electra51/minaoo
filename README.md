@@ -12,9 +12,8 @@
 
 ## Features
 
-- **NFT Listings**: Sellers can list their digital assets as NFTs for sale, including metadata and pricing information.
-- **Wallet Integration**: Users can connect their blockchain wallets to manage their NFT holdings and transactions but the feature is comming soon.
-- **Search and Filter**: Users can easily discover NFTs through search and filtering options.
+- **Banner with Sidebar menu**
+- **Benefits and Products**
 
 
 ## Technologies Used
@@ -40,8 +39,8 @@
   
 ## Screenshots
 
-![App Screenshot]([https://i.ibb.co/jfkJg8T/Screenshot-from-2023-12-22-17-31-49.png](https://i.ibb.co/1JcDxFZ/Screenshot-from-2024-02-17-18-51-54.png))
-![App Screenshot]([https://i.ibb.co/rZNpRH9/Screenshot-from-2023-12-22-17-31-08.png](https://i.ibb.co/qp3ggRc/Screenshot-from-2024-02-17-18-52-08.png))
+![App Screenshot](https://i.ibb.co/1JcDxFZ/Screenshot-from-2024-02-17-18-51-54.png)
+![App Screenshot](https://i.ibb.co/qp3ggRc/Screenshot-from-2024-02-17-18-52-08.png)
 
 ## Installation
 Install my-project with npm
