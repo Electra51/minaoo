@@ -1,13 +1,27 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./productBenefit.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import Star from "../../../Components/Common/Star/Star";
 import { productBenefitData } from "../../../Components/Common/data";
-import { slideData } from "../../../Components/Common/data";
 
 const ProductBenefit = () => {
+  const [slideData, setSlideData] = useState([]);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await fetch("https://dummyjson.com/products");
+        const data = await response.json();
+        setSlideData(data.products);
+      } catch (error) {
+        console.error("Error fetching product data:", error);
+      }
+    };
+
+    fetchData();
+  }, []);
   const settings = {
     dots: true,
     infinite: true,
@@ -41,22 +55,35 @@ const ProductBenefit = () => {
               <div key={e.id}>
                 <div className="product-item">
                   <div className="product-discount">
-                    <p>{e?.discount}%</p>
+                    <p>{e?.discountPercentage}%</p>
                   </div>
                   <div className="img-box">
-                    <img src={e.img} alt={e.name} width={80} className="img" />
+                    <img
+                      src={e?.thumbnail}
+                      alt={e?.name}
+                      width={80}
+                      className="img"
+                    />
                   </div>
-                  <p className="product-title">{e.name}</p>
+                  <p className="product-title">{e?.title}</p>
                   <div className="product-rating-and-stock">
                     <p className="product-rating">
-                      <Star ratingPoint={e.rating} />
-                      <p>({e?.review})</p>
+                      <Star ratingPoint={e?.rating} />
+                      <p>({e?.rating})</p>
                     </p>
-                    <p className="product-stock">{e?.stock}</p>
+                    <p className="product-stock">
+                      {e?.stock > 0 ? "Available" : "Not available"}
+                    </p>
                   </div>
                   <div className="product-all-price">
-                    <p className="product-price">${e.price}</p>
-                    <p className="product-after-price">${e.after_price}</p>
+                    <p className="product-price">${e?.price}</p>
+                    <p className="product-after-price">
+                      $
+                      {(
+                        e?.price -
+                        (e?.discountPercentage / 100) * e?.price
+                      ).toFixed(2)}
+                    </p>
                   </div>
                 </div>
               </div>

@@ -6,10 +6,7 @@ import img111 from "../../assets/1.png";
 import img211 from "../../assets/2.png";
 import img311 from "../../assets/3.png";
 import img411 from "../../assets/4.png";
-import img11 from "../../assets/camera.png";
-import img12 from "../../assets/chair.png";
-import img13 from "../../assets/headphone.png";
-import img14 from "../../assets/watch.png";
+
 import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 export const menuData = [
   {
@@ -208,53 +205,6 @@ export const productBenefitData = [
     name: "Easy Returns",
     img: img411,
     tag: "Within 30days",
-  },
-];
-
-export const slideData = [
-  {
-    id: 1,
-    name: "Premium Quality Black Official Relax Chair",
-    img: img11,
-    discount: "50",
-    price: "20.00",
-    after_price: "40.00",
-    stock: "available",
-    rating: 5,
-    review: 35,
-  },
-  {
-    id: 2,
-    name: "Apple 7 Pro Original Airpad Collection",
-    img: img12,
-    discount: "45",
-    price: "22.50",
-    after_price: "50.00",
-    stock: "available",
-    rating: 4.5,
-    review: 25,
-  },
-  {
-    id: 3,
-    name: "Fujifilm fxX70 DSLR Camera Collection",
-    img: img13,
-    discount: "50",
-    price: "40.00",
-    after_price: "80.00",
-    stock: "available",
-    rating: 5,
-    review: 65,
-  },
-  {
-    id: 4,
-    name: "Apple 5 Pro Original Smart watch Collection",
-    img: img14,
-    discount: "25",
-    price: "10.00",
-    after_price: "40.00",
-    stock: "available",
-    rating: 4,
-    review: 20,
   },
 ];
 
