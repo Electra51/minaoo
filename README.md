@@ -2,7 +2,7 @@
 # Minaoo -Multi-vendor e-commerce web apllication
 
 ## Project Logo
-![Logo]((https://i.ibb.co/wQdN1z9/logo.png))
+![Logo](https://i.ibb.co/wQdN1z9/logo.png)
 
 
 ## Demo
